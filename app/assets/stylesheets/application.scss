@@ -1,0 +1,32 @@
+@import 'basictemplate.scss';
+@import 'characters.scss';
+@import 'games.scss';
+
+.game-name{
+font-size: 1em;
+}
+
+.game-description{
+font-size: 0.8em;
+margin-bottom: 10px;
+}
+
+.list{
+  list-style-type: none;
+}
+#games-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 20%;
+}
+
+#characters-container{
+  width: 50%
+}
+#two-columns{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
